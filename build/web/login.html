@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>WritingIsEasy - Login</title>
+        <meta name="author" content="Simone Seu">
+        <meta name="keywords" content="html, css, fpw, writingiseasy">
+        <meta name="description" content="Progetto FPW 2019"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Login</h3>
+            <form action="login.html" method="post">
+                <label for="user"> Username </label>
+                <input type="text" name="user" id="user">
+                <br>
+                <label for="psw"> Password </label>
+                <input type="password" name="psw" id="psw">
+                <br>
+                <label for="profileImg"> Your Profile Image </label>              
+                <input type="url" name="profileimg" id="profileImg">
+                <br>
+                <label for="M">M</label>
+                <input type="radio" name="sex" value="M">
+                <label for="F">F</label>
+                <input type="radio" name="sex" value="F">
+                <br>
+                <!-- Inserimento di una descrizione-->
+                <label>Inserisci una descrizione qui: </label>
+                <textarea> ..Insert your text here..</textarea>
+                <br>
+                <!-- Scelta multipla bassa cardinalità-->
+                <label for="sport">Sport</label>
+                <input type="checkbox" name="category" id="sport">
+                <br>
+                <label for="science">Science</label>
+                <input type="checkbox" name="category" id="science">
+                <br>
+                <label for="romanzo">Romanzo</label>
+                <input type="checkbox" name="category" id="romanzo">
+                <br>
+                <input type="submit" value="Invia">
+            </form>
+    </body>
+</html>
